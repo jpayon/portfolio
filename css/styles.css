@@ -1,0 +1,248 @@
+/*----SELECTORS----*/
+body {
+    font-family: "Montserrat";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    line-height: 1.5;
+}
+h1, h2 {
+    font-weight: 800;
+}
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-weight: 600;
+}
+p {
+    color: #8F8F8F;
+}
+/*----END OF SELECTORS---*/
+
+/*----CLASS---*/
+.carousel-item {
+    height: 500px;
+}
+.cta-heading {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.download-botton {
+    margin: 5% 3% 5% 0;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.feature-box {
+    text-align:center;
+    padding:5%;
+}
+.juls-about{
+    float: right;
+    width: 200px;
+}
+.julius-img {
+    float:right;
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.icon {
+    color:#406882;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color:#6998AB;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1rem;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+.web_dev {
+    width: 450px;
+    border-radius: 5%;
+}
+/*----END OF CLASS---*/
+
+/*----ID----*/
+#press {
+    text-align: center;
+}
+#title {
+    background-color: #191919;
+    color:#FFF;
+}
+#features {
+    padding: 7% 15%;
+}
+#features h1 {
+    text-align: center;
+}
+#testimonials {
+    padding: 7% 15%;
+    background-color:#191A19;
+    color: #FFF;
+}
+#testimonials a {
+    text-decoration:none;
+}
+.enfra {
+    float:right;
+    border-radius: 5%;
+    width: 15%;
+    margin-left:10px;
+}
+#press {
+    padding: 7% 15%;
+}
+#press hr {
+    border:1px solid #FFF;
+}
+#press h2 {
+    font-size: 1.7rem;  
+}
+#pricing {
+    padding: 7% 15%;
+    background-color:#191A19;
+}
+#pricing h2 {
+    color:#FFF;
+}
+#pricing a {
+    text-decoration: none;
+}
+#pricing h3 {
+    color: #FFF;
+}
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer {
+    padding: 2% 15%;
+    text-align:center;
+    background-color: #191A19;
+}
+/*----END OF ID----*/
+
+/*----Media Queries----*/
+@media (max-width: 1028px) {
+    /*--about-page--*/
+    .about-intro {
+        text-align: left;
+    }
+    .row.about-intro p {
+        margin-right: 77px;
+    }    
+    section#testimonials h1 {
+        font-size: 2.3rem;
+    }
+    
+    /*--end about page--*/
+    #title {
+        text-align: center;
+    }
+    h1, section#cta h3 {
+        font-size: 2.6rem;
+    }
+    section#press h2 {
+        text-align: left;
+    }
+    section#pricing h3 {
+        font-size: 1.5rem;
+    }
+    }   
+    @media (max-width: 992px) {
+        h1, section#cta h3 {
+            font-size: 2.5rem;
+        }
+    }
+    @media (max-width: 768px) {
+        .row.about-intro p {
+            margin-right: unset;
+        }
+    }
+    @media (max-width: 425px) {
+        img.web_dev {
+            width: 300px;
+        }
+        h1, section#cta h3 {
+            font-size: 2.2rem;
+        }
+        img.enfra {
+            display: block;
+            margin: auto;
+            float: none;
+            width: 40%;
+        }
+        section#testimonials h2 {
+            text-align: center;
+        }
+        img.julius-img {
+            display: block;
+            margin: auto;
+            float: none;
+            width: 55%;
+        }
+        section#press h2 {
+            text-align: center;
+        }
+        section#pricing h2, h3 {
+            text-align: center;
+        }
+        section#pricing a {
+            word-break: break-word;
+        }
+        section#testimonials h2, section#press h2, section#pricing h2 {
+            font-size: 1.4rem;
+        }
+        section#pricing h3 {
+            font-size: 1.1rem;
+        }
+        
+        
+        .row.about-intro {
+            text-align: center;
+        }
+        
+        img.juls-about {
+            margin: auto;
+            display: block;
+            float: none;
+        }
+        section#features h1 {
+            font-size: 2rem;
+        }
+        section#testimonials h1 {
+            text-align: center;
+            font-size: 1.6rem;
+        }
+        
+        
+        
+    }
+    @media (max-width: 320px) {
+    
+    }
