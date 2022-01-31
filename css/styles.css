@@ -170,7 +170,7 @@ p {
     section#press h2 {
         text-align: left;
     }
-    section#pricing h3 {
+    section#contact h3 {
         font-size: 1.5rem;
     }
     }   
@@ -215,10 +215,10 @@ p {
         section#contact a {
             word-break: break-word;
         }
-        section#testimonials h2, section#press h2, section#pricing h2 {
+        section#testimonials h2, section#press h2, section#contact h2 {
             font-size: 1.4rem;
         }
-        section#pricing h3 {
+        section#contact h3 {
             font-size: 1.1rem;
         }
         
