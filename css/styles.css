@@ -122,17 +122,17 @@ p {
 #press h2 {
     font-size: 1.7rem;  
 }
-#pricing {
+#contact {
     padding: 7% 15%;
     background-color:#191A19;
 }
-#pricing h2 {
+#contact h2 {
     color:#FFF;
 }
-#pricing a {
+#contact a {
     text-decoration: none;
 }
-#pricing h3 {
+#contact h3 {
     color: #FFF;
 }
 #cta {
@@ -209,10 +209,10 @@ p {
         section#press h2 {
             text-align: center;
         }
-        section#pricing h2, h3 {
+        section#contact h2, h3 {
             text-align: center;
         }
-        section#pricing a {
+        section#contact a {
             word-break: break-word;
         }
         section#testimonials h2, section#press h2, section#pricing h2 {
